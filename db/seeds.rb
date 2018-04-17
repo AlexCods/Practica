@@ -6,4 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Zone.create(nom: 'Test',clima: 'Calid',temperatura: 20,humitat: 20)
+
+zona1 = Zone.create(nom: 'Test',clima: 'Calid',temperatura: 20,humitat: 20)
+Animal.create(nom: 'Ivan',rasa: 'Perro', zone: zona1, any_naixement: 1998, user: User.first)
